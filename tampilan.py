@@ -1,1 +1,8 @@
-print ("coba coba code")
+"""Fungsi untuk bantu tampilan di terminal"""
+
+
+def garis(judul=""):
+    print("\n" + "=" * 60)
+    if judul:
+        print(judul.center(60))
+        print("=" * 60)
