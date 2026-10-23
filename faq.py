@@ -1,1 +1,1 @@
-print ("Hallo wak")
+print ("Hallo mok")
