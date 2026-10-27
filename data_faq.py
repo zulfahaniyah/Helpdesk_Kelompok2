@@ -33,4 +33,15 @@ FAQ = {
          "pendaftaran diumumkan di portal kemahasiswaan.",
          ["beasiswa", "kip", "bantuan biaya", "prestasi"]),
     ],
-}    
+
+"Perpustakaan & Fasilitas": [
+        ("Bagaimana cara meminjam buku perpustakaan?",
+         "Tunjukkan KTM di meja sirkulasi. Maksimal 3 buku untuk 7 hari dan "
+         "bisa diperpanjang 1 kali lewat portal perpustakaan.",
+         ["pinjam buku", "perpustakaan", "perpanjang buku", "denda"]),
+        ("Bagaimana cara mengakses WiFi kampus?",
+         "Sambungkan ke WiFi kampus lalu login memakai NIM dan kata sandi "
+         "portal. Jika gagal, hubungi UPT TIK.",
+         ["wifi", "internet", "hotspot", "jaringan"]),
+    ],
+}        
