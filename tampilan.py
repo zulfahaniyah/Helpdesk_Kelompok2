@@ -1,4 +1,4 @@
-"""Fungsi untuk bantu tampilan di terminal"""
+"""Fungsi untuk membantu tampilan di terminal"""
 
 
 def garis(judul=""):
