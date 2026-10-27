@@ -44,4 +44,19 @@ FAQ = {
          "portal. Jika gagal, hubungi UPT TIK.",
          ["wifi", "internet", "hotspot", "jaringan"]),
     ],
-}        
+
+ "Akun & Layanan Digital": [
+        ("Saya lupa password portal mahasiswa",
+         "Klik 'Lupa Kata Sandi' di halaman login portal, lalu ikuti tautan "
+         "reset yang dikirim ke email kampus. Atau datang ke UPT TIK.",
+         ["lupa password", "lupa sandi", "reset password", "login", "akun"]),
+        ("Bagaimana cara mengurus KTM yang hilang?",
+         "Buat surat kehilangan dari kepolisian, isi formulir di bagian "
+         "kemahasiswaan, dan bayar biaya cetak ulang.",
+         ["ktm", "kartu mahasiswa", "kartu hilang", "hilang"]),
+    ],
+}
+
+KATEGORI_TIKET = ["Akademik", "Keuangan", "Beasiswa",
+                  "Perpustakaan & Fasilitas", "Akun & Layanan Digital", "Lainnya"]
+STATUS = ["Open", "Diproses", "Selesai"]        
