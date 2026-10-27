@@ -26,4 +26,11 @@ FAQ = {
          "(surat keterangan penghasilan orang tua) sebelum jatuh tempo.",
          ["keringanan", "cicil", "cicilan", "angsur", "dispensasi"]),
     ],
-}
+
+ "Beasiswa": [
+        ("Beasiswa apa saja yang tersedia?",
+         "Tersedia beasiswa prestasi, KIP Kuliah, dan beasiswa mitra. Info "
+         "pendaftaran diumumkan di portal kemahasiswaan.",
+         ["beasiswa", "kip", "bantuan biaya", "prestasi"]),
+    ],
+}    
