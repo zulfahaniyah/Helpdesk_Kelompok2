@@ -15,4 +15,15 @@ FAQ = {
          "muncul, hubungi dosen pengampu atau bagian akademik.",
          ["nilai", "khs", "ipk", "ips", "transkrip"]),
     ],
+
+"Keuangan": [
+        ("Bagaimana cara membayar UKT?",
+         "Pembayaran UKT dilakukan melalui Virtual Account bank mitra kampus "
+         "sesuai tagihan di portal. Simpan bukti pembayaran.",
+         ["ukt", "spp", "bayar kuliah", "virtual account", "tagihan"]),
+        ("Bagaimana cara mengajukan keringanan atau cicilan UKT?",
+         "Ajukan permohonan ke bagian keuangan beserta dokumen pendukung "
+         "(surat keterangan penghasilan orang tua) sebelum jatuh tempo.",
+         ["keringanan", "cicil", "cicilan", "angsur", "dispensasi"]),
+    ],
 }
