@@ -7,7 +7,7 @@ from storage import muat_tiket, simpan_tiket
 from tampilan import garis
 from tiket import cetak_tiket
 
-SANDI_STAF = "staf123"  # ganti sandi ini untuk produksi
+SANDI_STAF = "staf123"  # Ganti sandi ini untuk produksi
 
 
 def mode_staf():
