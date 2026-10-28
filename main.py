@@ -13,3 +13,9 @@ def main():
         "4": ("Cek Status Tiket", cek_status),
         "5": ("Mode Staf Kampus", mode_staf),
     }
+    while True:
+        garis("HELPDESK KAMPUS")
+        for k, (nama, _) in menu.items():
+            print(f"{k}. {nama}")
+        print("0. Keluar")
+        pilih = input("\nPilih menu: ").strip()
