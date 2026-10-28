@@ -19,3 +19,13 @@ def main():
             print(f"{k}. {nama}")
         print("0. Keluar")
         pilih = input("\nPilih menu: ").strip()
+        if pilih == "0":
+            print("Terima kasih sudah menghubungi Helpdesk Kampus!")
+            break
+        if pilih in menu:
+            menu[pilih][1]()
+            if not tanya_kembali_menu():
+                print("Terima kasih sudah menghubungi Helpdesk Kampus!")
+                break
+        else:
+            print("Pilihan tidak valid.")
