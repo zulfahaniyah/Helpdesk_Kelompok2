@@ -1,3 +1,5 @@
+"""Fitur tiket: membuat tiket, mencetak detail, dan cek status."""
+
 from datetime import datetime
 
 from data_faq import KATEGORI_TIKET
@@ -75,3 +77,17 @@ def cek_status():
         return
     for t in ditemukan:
         cetak_tiket(t)
+
+
+def hapus_tiket(daftar, t):
+    """Hapus tiket dari daftar. Hanya tiket berstatus Selesai, dengan konfirmasi."""
+    if t["status"] != "Selesai":
+        print("Tiket hanya dapat dihapus jika berstatus Selesai.")
+        return False
+    yakin = input(f"Yakin hapus tiket {t['id']}? (y/n): ").strip().lower()
+    if yakin != "y":
+        print("Penghapusan dibatalkan.")
+        return False
+    daftar.remove(t)
+    print("Tiket berhasil dihapus.")
+    return True
