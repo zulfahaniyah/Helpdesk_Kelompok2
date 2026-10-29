@@ -1,0 +1,30 @@
+[
+  {
+    "id": "HD-261027-53706",
+    "nama": "zulfa haniyah",
+    "nim": "89237733",
+    "prodi": "si",
+    "email": "hniyah",
+    "kategori": "Keuangan",
+    "deskripsi": "kendala dipembayaran",
+    "status": "Diproses",
+    "dibuat": "2026-10-27 13:52",
+    "balasan": [
+      {
+        "staf": "adek yaya",
+        "pesan": "baik bisa mengubungi wa yang terdaftar",
+        "waktu": "2026-10-27 13:54"
+      },
+      {
+        "staf": "adek yaya",
+        "pesan": "baik akan kami proses",
+        "waktu": "2026-10-28 17:15"
+      },
+      {
+        "staf": "adek yaya",
+        "pesan": "sedang proses",
+        "waktu": "2026-10-29 08:14"
+      }
+    ]
+  }
+]
