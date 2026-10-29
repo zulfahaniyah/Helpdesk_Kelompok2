@@ -5,9 +5,9 @@ from datetime import datetime
 from data_faq import STATUS
 from storage import muat_tiket, simpan_tiket
 from tampilan import garis
-from tiket import cetak_tiket
+from tiket import cetak_tiket, hapus_tiket
 
-SANDI_STAF = "staf123"  # Ganti sandi ini untuk produksi
+SANDI_STAF = "staf123"  # ganti sandi ini untuk produksi
 
 
 def mode_staf():
@@ -31,7 +31,7 @@ def mode_staf():
         t = tiket[int(pilih) - 1]
         cetak_tiket(t)
 
-        print("\n1. Balas tiket\n2. Ubah status\n3. Kembali")
+        print("\n1. Balas tiket\n2. Ubah status\n3. Hapus tiket\n4. Kembali")
         aksi = input("Pilih aksi: ").strip()
         if aksi == "1":
             pesan = input("Pesan balasan: ").strip()
@@ -49,4 +49,6 @@ def mode_staf():
             s = input("Status baru (angka): ").strip()
             if s.isdigit() and 1 <= int(s) <= len(STATUS):
                 t["status"] = STATUS[int(s) - 1]
+        elif aksi == "3":
+            hapus_tiket(tiket, t)
         simpan_tiket(tiket)
